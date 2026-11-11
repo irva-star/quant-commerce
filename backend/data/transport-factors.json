@@ -1,0 +1,59 @@
+{
+  "road": {
+    "value": 0.10163,
+    "row_id": "27_304_3140_14_1",
+    "source_row": [
+      "27_304_3140_14_1",
+      "Scope 3",
+      "Freighting goods",
+      "HGV (all diesel)",
+      "All HGVs",
+      "",
+      "Average laden",
+      "tonne.km",
+      "kg CO2e",
+      "0.10163"
+    ],
+    "description": "HGV (all diesel) / All HGVs / Average laden. 2025 UK DESNZ freight factor, kg CO2e/tonne-km. Excludes well-to-tank fuel emissions. Road/sea proxies applied to synthetic routes; air includes radiative forcing.",
+    "workbook_sha256": "8bfdb45b81ec4a88e3bdf4584637330f62e6bd09ce1940e654c5d7b7f736de94",
+    "download_url": "https://assets.publishing.service.gov.uk/media/6846b6ea57f3515d9611f0dd/ghg-conversion-factors-2025-flat-format.xlsx"
+  },
+  "air": {
+    "value": 0.89939,
+    "row_id": "27_317_3158_14_1",
+    "source_row": [
+      "27_317_3158_14_1",
+      "Scope 3",
+      "Freighting goods",
+      "Freight flights",
+      "International, to/from non-UK",
+      "",
+      "With RF",
+      "tonne.km",
+      "kg CO2e",
+      "0.89939000000000002"
+    ],
+    "description": "Freight flights / International, to/from non-UK / With RF. 2025 UK DESNZ freight factor, kg CO2e/tonne-km. Excludes well-to-tank fuel emissions. Road/sea proxies applied to synthetic routes; air includes radiative forcing.",
+    "workbook_sha256": "8bfdb45b81ec4a88e3bdf4584637330f62e6bd09ce1940e654c5d7b7f736de94",
+    "download_url": "https://assets.publishing.service.gov.uk/media/6846b6ea57f3515d9611f0dd/ghg-conversion-factors-2025-flat-format.xlsx"
+  },
+  "sea": {
+    "value": 0.01612,
+    "row_id": "27_320_3235_14_1",
+    "source_row": [
+      "27_320_3235_14_1",
+      "Scope 3",
+      "Freighting goods",
+      "Cargo ship",
+      "Container ship",
+      "Average",
+      "",
+      "tonne.km",
+      "kg CO2e",
+      "1.6119999999999999E-2"
+    ],
+    "description": "Cargo ship / Container ship / Average. 2025 UK DESNZ freight factor, kg CO2e/tonne-km. Excludes well-to-tank fuel emissions. Road/sea proxies applied to synthetic routes; air includes radiative forcing.",
+    "workbook_sha256": "8bfdb45b81ec4a88e3bdf4584637330f62e6bd09ce1940e654c5d7b7f736de94",
+    "download_url": "https://assets.publishing.service.gov.uk/media/6846b6ea57f3515d9611f0dd/ghg-conversion-factors-2025-flat-format.xlsx"
+  }
+}
